@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: black;
+}
+.navs{
+display: flex;
+}
+
+.mylinks{
+    display: flex;
+    border-radius: 5px;
+    justify-content: flex-end;
+}
+
+.jumbotron{
+    background-color: black;
+    padding: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .mylinks {
+        flex-direction: column;
+        border: 1px solid burlywood;
+        padding: 15px;
+    }
+
+    .jumbo {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        margin
+    }
+}
